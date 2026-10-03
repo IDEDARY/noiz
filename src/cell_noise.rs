@@ -6,8 +6,9 @@ use core::{
 };
 
 use bevy_math::{
-    Curve, Vec2, Vec3, Vec3A, Vec4, Vec4Swizzles, VectorSpace, curve::derivatives::SampleDerivative,
+    Vec2, Vec3, Vec3A, Vec4, Vec4Swizzles, VectorSpace,
 };
+use bevy_curve::{Curve, derivatives::SampleDerivative};
 
 use crate::{
     NoiseFunction,
